@@ -1,0 +1,64 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font-family: Arial, Helvetica, sans-serif;background-image: linear-gradient(to right,#3589B0,#57C785);padding: 20px;}
+.container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+    color: #fff;
+    padding: 12px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s linear;
+    &:hover{
+        scale: 1.1;
+    }
+}
+.button-box{
+    display: flex;
+    gap: 50px;
+}
+.btn1{
+    background-color: #3589B0;
+}
+.btn2{
+    background-color: #57C785;
+}
+.message{
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.copy-box{
+    width: fit-content;
+    padding: 25px 20px;
+    font-size: 17px;
+    border: 1px solid #2d2d2d2d;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+    border-left: 2px solid rgb(251, 251, 251);
+    background-color: transparent;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.129) 0px 5px 15px;
+    transition: all 0.3s linear;
+    &:hover{
+        color: #000000b8;
+        scale: 0.9;
+    }
+}
